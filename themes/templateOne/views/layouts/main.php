@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl . DIRECTORY_SEPARATOR; ?>css/matrix-media.css"/>
     <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl . DIRECTORY_SEPARATOR; ?>font-awesome/css/font-awesome.css"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css" type="text/css" />
+    <script src="<?php echo Yii::app()->theme->baseUrl . DIRECTORY_SEPARATOR; ?>js/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -100,7 +103,6 @@
 
 <!-- Scripts -->
 <script src="<?php echo Yii::app()->theme->baseUrl . DIRECTORY_SEPARATOR; ?>js/excanvas.min.js"></script>
-<script src="<?php echo Yii::app()->theme->baseUrl . DIRECTORY_SEPARATOR; ?>js/jquery.min.js"></script>
 <script src="<?php echo Yii::app()->theme->baseUrl . DIRECTORY_SEPARATOR; ?>js/jquery.ui.custom.js"></script>
 <script src="<?php echo Yii::app()->theme->baseUrl . DIRECTORY_SEPARATOR; ?>js/bootstrap.min.js"></script>
 <script src="<?php echo Yii::app()->theme->baseUrl . DIRECTORY_SEPARATOR; ?>js/jquery.flot.min.js"></script>

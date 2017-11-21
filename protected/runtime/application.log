@@ -4097,3 +4097,66 @@ Stack trace:
 REQUEST_URI=/yii/site/index.html
 HTTP_REFERER=http://localhost/yii/site/index
 ---
+2017/11/21 21:23:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/templateOne/img/glyphicons-halflings.png". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/template...')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/templateOne/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yii/themes/templateOne/css/bootstrap.min.css
+---
+2017/11/21 21:24:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/templateOne/img/glyphicons-halflings.png". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/template...')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/templateOne/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yii/themes/templateOne/css/bootstrap.min.css
+---
+2017/11/21 21:24:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/templateOne/img/glyphicons-halflings.png". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/template...')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/templateOne/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yii/themes/templateOne/css/bootstrap.min.css
+---
+2017/11/21 21:30:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/templateOne/img/glyphicons-halflings.png". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/template...')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/templateOne/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yii/themes/templateOne/css/bootstrap.min.css
+---
+2017/11/21 21:30:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/templateOne/img/glyphicons-halflings.png". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/template...')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/templateOne/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yii/themes/templateOne/css/bootstrap.min.css
+---
+2017/11/21 21:30:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/templateOne/img/glyphicons-halflings.png". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/template...')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/templateOne/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yii/themes/templateOne/css/bootstrap.min.css
+---
+2017/11/21 21:30:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/templateOne/img/glyphicons-halflings.png". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/template...')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/templateOne/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yii/themes/templateOne/css/bootstrap.min.css
+---
