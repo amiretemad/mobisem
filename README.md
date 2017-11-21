@@ -1,6 +1,6 @@
 # mobisem
 
-
+announcement Table
 ``` Mysql
 
 create table ilan
@@ -18,6 +18,7 @@ create index user_id on ilan (user_id);
 
 ```
 
+Products Table
 ``` Mysql
 
 create table products
@@ -31,6 +32,7 @@ create table products
 
 ```
 
+Products Inventory (increasing and decreasing products)
 ``` Mysql
 
 create table products_inventory
@@ -45,6 +47,7 @@ create table products_inventory
 
 ```
 
+Users Table
 ``` Mysql
 
 create table users
@@ -57,6 +60,7 @@ create table users
 
 ```
 
+password is : 123456
 ``` sql
 
 INSERT INTO users (email_address, password) VALUES ('test@test.com', '$2y$10$NBUPiBWFXY8tVzZCYqPb.Ou88HOMppD/8y2.HDDwaASD.n9rsmQLC');
