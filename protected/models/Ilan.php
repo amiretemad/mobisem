@@ -61,7 +61,24 @@ class Ilan extends CActiveRecord
 		);
 	}
 
-	/**
+	//
+  public function beforeDelete(){
+    $myfile = fopen("logs.txt", "a") or die("Unable to open file!");
+    fwrite($myfile, "\n". "ilan Table Deleted : ".$this->id);
+    fclose($myfile);
+    return true;
+  }
+
+  //
+  public function afterSave(){
+    $myfile = fopen("logs.txt", "a") or die("Unable to open file!");
+    fwrite($myfile, "\n". "ilan Table Updated/Inserted : ".$this->id);
+    fclose($myfile);
+    return true;
+
+  }
+
+  /**
 	 * @return array customized attribute labels (name=>label)
 	 */
 	public function attributeLabels()

@@ -5641,3 +5641,43 @@ Stack trace:
 REQUEST_URI=/yii/announcement/ilan/delete/id/1
 HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
 ---
+2017/11/25 00:55:19 [error] [php] Declaration of Products::onBeforeSave() should be compatible with CActiveRecord::onBeforeSave($event) (/Applications/AMPPS/www/yii/protected/models/Products.php:12)
+Stack trace:
+#0 /Applications/AMPPS/www/yii/protected/modules/product/controllers/AddController.php(68): spl_autoload_call()
+#1 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): AddController->actionSave()
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): AddController->runAction()
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): AddController->filterAccessControl()
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(265): AddController->runActionWithFilters()
+#10 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): AddController->run()
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /Applications/AMPPS/www/yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/product/add/save
+in /Applications/AMPPS/www/yii/protected/models/Products.php (12)
+in /Applications/AMPPS/www/yii/protected/modules/product/controllers/AddController.php (68)
+in /Applications/AMPPS/www/yii/index.php (13)
+2017/11/25 00:59:54 [error] [php] Declaration of Products::beforeSave($event) should be compatible with CActiveRecord::beforeSave() (/Applications/AMPPS/www/yii/protected/models/Products.php:12)
+Stack trace:
+#0 /Applications/AMPPS/www/yii/protected/modules/product/controllers/AddController.php(68): spl_autoload_call()
+#1 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): AddController->actionSave()
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): AddController->runAction()
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): AddController->filterAccessControl()
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(265): AddController->runActionWithFilters()
+#10 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): AddController->run()
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /Applications/AMPPS/www/yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/product/add/save
+in /Applications/AMPPS/www/yii/protected/models/Products.php (12)
+in /Applications/AMPPS/www/yii/protected/modules/product/controllers/AddController.php (68)
+in /Applications/AMPPS/www/yii/index.php (13)

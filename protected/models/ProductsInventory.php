@@ -31,6 +31,7 @@ class ProductsInventory extends CActiveRecord
 		return 'products_inventory';
 	}
 
+
 	/**
 	 * @return array validation rules for model attributes.
 	 */
