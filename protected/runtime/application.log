@@ -4160,3 +4160,1484 @@ Stack trace:
 REQUEST_URI=/yii/themes/templateOne/img/glyphicons-halflings.png
 HTTP_REFERER=http://localhost/yii/themes/templateOne/css/bootstrap.min.css
 ---
+2017/11/24 21:28:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ilan". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ilan')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/ilan
+---
+2017/11/24 21:28:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ilan/default". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ilan/default')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/ilan/default
+---
+2017/11/24 21:28:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ilan". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ilan')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/ilan
+---
+2017/11/24 21:29:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "ilan/index". in /Applications/AMPPS/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ilan/index')
+#1 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/ilan/index
+---
+2017/11/24 21:30:23 [error] [exception.CException] CException: IlanController cannot find the requested view "index". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#2 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#13 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/announcement/ilan
+---
+2017/11/24 21:31:05 [error] [exception.CException] CException: IlanController cannot find the requested view "index". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#2 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#13 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/announcement/ilan
+---
+2017/11/24 21:31:06 [error] [exception.CException] CException: IlanController cannot find the requested view "index". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#2 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#13 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/announcement/ilan
+---
+2017/11/24 21:31:14 [error] [exception.CException] CException: IlanController cannot find the requested view "index". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#2 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#13 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 21:32:50 [error] [exception.CException] CException: IlanController cannot find the requested view "index". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#2 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#13 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 21:32:51 [error] [exception.CException] CException: IlanController cannot find the requested view "index". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#2 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#12 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#13 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 21:36:33 [error] [php] require(): Filename cannot be empty (/Applications/AMPPS/www/yii/framework/web/CBaseController.php:130)
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/zii/widgets/CListView.php(281): IlanController->renderFile()
+#1 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(160): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback()
+#4 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(128): CListView->renderContent()
+#5 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(173): CListView->run()
+#6 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php(27): IlanController->widget()
+#7 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require()
+#8 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): IlanController->renderInternal()
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(869): IlanController->renderFile()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(782): IlanController->renderPartial()
+#11 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): IlanController->render()
+#12 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#13 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): IlanController->runAction()
+#15 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): IlanController->filterAccessControl()
+#18 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /Applications/AMPPS/www/yii/framework/web/CController.php(265): IlanController->runActionWithFilters()
+#21 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): IlanController->run()
+#22 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /Applications/AMPPS/www/yii/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/announcement/ilan/index
+in /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php (27)
+in /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php (112)
+in /Applications/AMPPS/www/yii/index.php (13)
+2017/11/24 22:02:16 [error] [exception.CException] CException: Property "Ilan.user" is not defined. in /Applications/AMPPS/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('user')
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/_view.php(6): CActiveRecord->__get('user')
+#2 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(130): require('/Applications/A...')
+#3 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, false)
+#4 /Applications/AMPPS/www/yii/framework/zii/widgets/CListView.php(281): CBaseController->renderFile('/Applications/A...', Array)
+#5 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(160): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent()
+#9 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(173): CBaseListView->run()
+#10 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#12 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#13 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#16 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#17 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#27 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 22:02:18 [error] [exception.CException] CException: Property "Ilan.user" is not defined. in /Applications/AMPPS/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('user')
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/_view.php(6): CActiveRecord->__get('user')
+#2 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(130): require('/Applications/A...')
+#3 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, false)
+#4 /Applications/AMPPS/www/yii/framework/zii/widgets/CListView.php(281): CBaseController->renderFile('/Applications/A...', Array)
+#5 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(160): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent()
+#9 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(173): CBaseListView->run()
+#10 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#12 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#13 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#16 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#17 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#27 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 22:04:40 [error] [exception.CException] CException: Property "Ilan.user" is not defined. in /Applications/AMPPS/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('user')
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/_view.php(6): CActiveRecord->__get('user')
+#2 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(130): require('/Applications/A...')
+#3 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, false)
+#4 /Applications/AMPPS/www/yii/framework/zii/widgets/CListView.php(281): CBaseController->renderFile('/Applications/A...', Array)
+#5 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(160): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent()
+#9 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(173): CBaseListView->run()
+#10 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#12 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#13 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#16 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#17 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#27 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 22:04:54 [error] [exception.CException] CException: Property "Ilan.email_address" is not defined. in /Applications/AMPPS/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('email_address')
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/_view.php(6): CActiveRecord->__get('email_address')
+#2 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(130): require('/Applications/A...')
+#3 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, false)
+#4 /Applications/AMPPS/www/yii/framework/zii/widgets/CListView.php(281): CBaseController->renderFile('/Applications/A...', Array)
+#5 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(160): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent()
+#9 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(173): CBaseListView->run()
+#10 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#12 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#13 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#16 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#17 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#27 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 22:04:55 [error] [exception.CException] CException: Property "Ilan.email_address" is not defined. in /Applications/AMPPS/www/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/db/ar/CActiveRecord.php(143): CComponent->__get('email_address')
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/_view.php(6): CActiveRecord->__get('email_address')
+#2 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(130): require('/Applications/A...')
+#3 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, false)
+#4 /Applications/AMPPS/www/yii/framework/zii/widgets/CListView.php(281): CBaseController->renderFile('/Applications/A...', Array)
+#5 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(160): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent()
+#9 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(173): CBaseListView->run()
+#10 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#12 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#13 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#16 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#17 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#27 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 22:08:08 [error] [exception.ParseError] ParseError: syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/_view.php:10
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, false)
+#1 /Applications/AMPPS/www/yii/framework/zii/widgets/CListView.php(281): CBaseController->renderFile('/Applications/A...', Array)
+#2 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(160): CListView->renderItems()
+#3 [internal function]: CBaseListView->renderSection(Array)
+#4 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#5 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent()
+#6 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(173): CBaseListView->run()
+#7 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#9 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#11 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#12 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#13 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#23 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#24 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 22:08:09 [error] [exception.ParseError] ParseError: syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/_view.php:10
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, false)
+#1 /Applications/AMPPS/www/yii/framework/zii/widgets/CListView.php(281): CBaseController->renderFile('/Applications/A...', Array)
+#2 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(160): CListView->renderItems()
+#3 [internal function]: CBaseListView->renderSection(Array)
+#4 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(143): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#5 /Applications/AMPPS/www/yii/framework/zii/widgets/CBaseListView.php(128): CBaseListView->renderContent()
+#6 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(173): CBaseListView->run()
+#7 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/index.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#9 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#11 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#12 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(112): CController->render('index', Array)
+#13 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionIndex()
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#23 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#24 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii/announcement/ilan/index
+---
+2017/11/24 22:16:45 [error] [exception.CException] CException: IlanController cannot find the requested view "create". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#1 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(67): CController->render('create', Array)
+#2 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionCreate()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#13 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/announcement/ilan/create
+---
+2017/11/24 22:16:57 [error] [exception.CException] CException: IlanController cannot find the requested view "_form". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/create.php(18): CController->renderPartial('_form', Array)
+#1 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#2 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#4 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#5 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(67): CController->render('create', Array)
+#6 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionCreate()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#17 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii/announcement/ilan/create
+---
+2017/11/24 22:16:58 [error] [exception.CException] CException: IlanController cannot find the requested view "_form". in /Applications/AMPPS/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/AMPPS/www/yii/protected/modules/announcement/views/ilan/create.php(18): CController->renderPartial('_form', Array)
+#1 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(126): require('/Applications/A...')
+#2 /Applications/AMPPS/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/A...', Array, true)
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/A...', Array, true)
+#4 /Applications/AMPPS/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#5 /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php(67): CController->render('create', Array)
+#6 /Applications/AMPPS/www/yii/framework/web/actions/CInlineAction.php(49): IlanController->actionCreate()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#17 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#18 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii/announcement/ilan/create
+---
+2017/11/24 22:23:49 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/update
+---
+2017/11/24 22:24:21 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/update
+---
+2017/11/24 22:24:27 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/update
+---
+2017/11/24 22:24:35 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/view
+---
+2017/11/24 22:24:53 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/admin
+---
+2017/11/24 22:25:16 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('Admin')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/Admin
+---
+2017/11/24 22:25:19 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/admin
+---
+2017/11/24 22:26:29 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/admin
+---
+2017/11/24 22:26:31 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/admin
+---
+2017/11/24 22:26:31 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/admin
+---
+2017/11/25 00:07:44 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:16:12 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:20:47 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:21:30 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:21:59 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:22:00 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:22:00 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:22:23 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:23:13 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:23:46 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:24:23 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:34:59 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/4
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:35:49 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:35:53 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/1
+---
+2017/11/25 00:35:54 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/1
+---
+2017/11/25 00:35:56 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/
+---
+2017/11/25 00:36:00 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/
+---
+2017/11/25 00:36:01 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/
+---
+2017/11/25 00:36:11 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/
+---
+2017/11/25 00:36:11 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/
+---
+2017/11/25 00:36:12 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/
+---
+2017/11/25 00:36:12 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/
+---
+2017/11/25 00:36:14 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+---
+2017/11/25 00:36:19 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+---
+2017/11/25 00:36:19 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/3
+---
+2017/11/25 00:36:21 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/
+---
+2017/11/25 00:36:23 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/1
+---
+2017/11/25 00:36:24 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:36:34 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:37:37 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:37:43 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Applications/AMPPS/www/yii/protected/modules/announcement/controllers/IlanController.php:30
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(338): CWebApplication->createController('delete/id/1/', Object(AnnouncementModule))
+#1 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('ilan/delete/id/...')
+#2 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#3 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:37:47 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:38:29 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:38:29 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:38:30 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:39:00 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+---
+2017/11/25 00:40:30 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---
+2017/11/25 00:41:25 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('te')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/te
+---
+2017/11/25 00:41:39 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/update
+---
+2017/11/25 00:41:42 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('te')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/te
+---
+2017/11/25 00:41:57 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('te')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/te/id/1
+---
+2017/11/25 00:42:07 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('te')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/te/id/1
+---
+2017/11/25 00:42:08 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('te')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/te/id/1
+---
+2017/11/25 00:42:08 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('te')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/te/id/1
+---
+2017/11/25 00:42:10 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('te')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/te
+---
+2017/11/25 00:47:37 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('te')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/te
+---
+2017/11/25 00:47:39 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Applications/AMPPS/www/yii/framework/web/CController.php:1118
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#10 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+---
+2017/11/25 00:47:42 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/AMPPS/www/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#9 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/announcement/ilan/admin
+---
+2017/11/25 00:48:21 [error] [exception.CException] CException: Filter "getOnly" is invalid. Controller "IlanController" does not have the filter method "filtergetOnly". in /Applications/AMPPS/www/yii/framework/web/filters/CInlineFilter.php:46
+Stack trace:
+#0 /Applications/AMPPS/www/yii/framework/web/filters/CFilterChain.php(69): CInlineFilter::create(Object(IlanController), 'getOnly')
+#1 /Applications/AMPPS/www/yii/framework/web/CController.php(291): CFilterChain::create(Object(IlanController), Object(CInlineAction), Array)
+#2 /Applications/AMPPS/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#4 /Applications/AMPPS/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('announcement/il...')
+#5 /Applications/AMPPS/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Applications/AMPPS/www/yii/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/announcement/ilan/delete/id/1
+HTTP_REFERER=http://localhost/yii/announcement/ilan/admin
+---

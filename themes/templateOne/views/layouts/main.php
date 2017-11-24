@@ -52,11 +52,12 @@
         </li>
         <!-- Announcement Menu -->
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>
-                <span>Product Management</span>
-                <span class="label label-important">2</span></a>
+                <span>Ilan Management</span>
+                <span class="label label-important">3</span></a>
             <ul>
-                <li><a href="<?php echo Yii::app()->createUrl('product/add'); ?>">Add</a></li>
-                <li><a href="<?php echo Yii::app()->createUrl('product/list'); ?>">List</a></li>
+                <li><a href="<?php echo Yii::app()->createUrl('announcement/ilan/create'); ?>">Create</a></li>
+                <li><a href="<?php echo Yii::app()->createUrl('announcement/ilan/admin'); ?>">Admin</a></li>
+                <li><a href="<?php echo Yii::app()->createUrl('announcement/ilan/index'); ?>">List</a></li>
             </ul>
         </li>
     </ul>
