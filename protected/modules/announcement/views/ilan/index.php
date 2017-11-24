@@ -14,7 +14,6 @@ $this->menu = array(
 
 <!-- page contents -->
 <div class="container-fluid">
-
     <div class="widget-box">
         <div class="widget-title bg_lg">
             <span class="icon">

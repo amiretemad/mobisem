@@ -28,4 +28,3 @@ $this->menu = array(
         </div>
     </div>
 </div>
-
